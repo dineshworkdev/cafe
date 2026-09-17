@@ -49,7 +49,7 @@ const Hero = () => {
             <Badge containerStyles="hidden xl:flex xl:w-[180px] xl:h-[180px]" />
             {/* Main Hero Heading - "Coffee" is accented */}
             <h1 className="h1 text-white">
-              <span className="text-accent">Cafe</span> Locus
+              <span className="text-accent">Cafe</span> Retroo
             </h1>
           </div>
           
@@ -58,7 +58,7 @@ const Hero = () => {
           
           {/* Hero Description Text - Responsive max-width */}
           <p className="lead font-light max-w-[300px] md:max-w-[430px] xl:max-w-[560px] mb-4">
-            A cozy retreat on Avinashi Road, Coimbatore — where great food, handcrafted drinks,
+            A cozy retreat on Raja Annamalai Road, Saibaba Colony, Coimbatore — where great food, handcrafted drinks,
             and warm moments come together
           </p>
           

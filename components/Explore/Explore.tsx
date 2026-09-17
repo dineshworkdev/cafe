@@ -30,14 +30,14 @@ const Explore = () => {
                   "From a smooth cappuccino to a bold espresso, our coffees are made with care. The perfect cup to start your day or unwind with in our cozy space.",
               }}
             />
-            {/* Item 2: Classic Drip Coffee */}
+            {/* Item 2: Indulgent Desserts */}
             <ExploreItem
               itemCSS="xl:text-right xl:items-end"
               icon="coffee-2.svg"
               text={{
-                title: "Indulgent Desserts",
+                title: "Bold Starters",
                 description:
-                  "Treat yourself to our Basque Cheesecake, Chocolate Cake, or Churros. Each dessert is crafted to be a memorable experience, not just a sweet ending.",
+                  "Treat yourself to our Shrimp Dynamite, Peri Peri Wings, or Crispy Garlic Chicken. Each dish is crafted to be a memorable experience, not just a starter.",
               }}
             />
           </div>
@@ -64,19 +64,19 @@ const Explore = () => {
               itemCSS="xl:text-left items-start" // Left-align on desktop
               icon="coffee-3.svg"
               text={{
-                title: "Savory Bites",
+                title: "Hearty Mains",
                 description:
-                  "Craving something hearty? Our Kimchi Fried Rice, Chicken Sandwich, and Wontons bring bold, satisfying flavours to every visit.",
+                  "Craving something satisfying? Our Chicken Wrap, Chicken Sandwich, and Pizza bring bold, satisfying flavours to every visit.",
               }}
             />
-            {/* Item 4: Flavorful Latte Varieties */}
+            {/* Item 4: Warm Atmosphere */}
             <ExploreItem
               itemCSS="xl:text-left items-start"
               icon="coffee-4.svg"
               text={{
                 title: "Warm Atmosphere",
                 description:
-                  "A welcoming space on Avinashi Road, Coimbatore — perfect for a casual catch-up, a solo afternoon, or a relaxed work session.",
+                  "A welcoming space on Raja Annamalai Road, Saibaba Colony, Coimbatore — perfect for a casual catch-up, a solo afternoon, or a relaxed work session.",
               }}
             />
           </div>

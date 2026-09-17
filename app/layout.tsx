@@ -54,35 +54,34 @@ export const metadata: Metadata = {
   // Title configuration with template support
   // Template allows child pages to set their own title with site name appended
   title: {
-    default: "Cafe Locus | Coimbatore's Favourite Café",
-    template: "%s | Cafe Locus", // %s will be replaced with page-specific title
+    default: "Cafe Retroo | Saibaba Colony, Coimbatore",
+    template: "%s | Cafe Retroo", // %s will be replaced with page-specific title
   },
   description:
-    "Cafe Locus is a beloved café in Coimbatore, Tamil Nadu, rated 4.7/5 on Google. Located on Avinashi Road, we serve great food and drinks in a warm, welcoming atmosphere. From Basque Cheesecake to Kimchi Fried Rice, Cappuccino to Churros — there's something for everyone.",
+    "Cafe Retroo is a popular café in Saibaba Colony, Coimbatore, Tamil Nadu, rated 4.8/5 on Google with 989+ reviews. Located on Raja Annamalai Road, we serve great food and drinks including Shrimp Dynamite, Peri Peri Wings, Chicken Wrap, Pizza, and more. ₹200–₹400 per person.",
   keywords: [
-    "Cafe Locus",
+    "Cafe Retroo",
     "cafe in Coimbatore",
     "cafe Coimbatore",
-    "coffee shop Coimbatore",
-    "Avinashi Road cafe",
+    "Saibaba Colony cafe",
+    "Raja Annamalai Road cafe",
     "Tamil Nadu cafe",
-    "Basque Cheesecake Coimbatore",
-    "Kimchi Fried Rice Coimbatore",
-    "Churros Coimbatore",
-    "cappuccino",
+    "Shrimp Dynamite Coimbatore",
+    "Peri Peri Wings Coimbatore",
+    "Chicken Wrap Coimbatore",
     "best cafe Coimbatore",
     "cafe near me Coimbatore",
     "food and drinks Coimbatore",
-    "cafe locus menu",
+    "cafe retroo menu",
   ],
   authors: [
     {
-      name: "Cafe Locus",
+      name: "Cafe Retroo",
     },
   ],
-  creator: "Cafe Locus",
-  publisher: "Cafe Locus",
-  metadataBase: new URL("https://cafelocus.in"),
+  creator: "Cafe Retroo",
+  publisher: "Cafe Retroo",
+  metadataBase: new URL("https://caferetro.in"),
   alternates: {
     canonical: "/",
   },
@@ -91,25 +90,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN", // Language and region
-    url: "https://cafelocus.in",
-    siteName: "Cafe Locus",
-    title: "Cafe Locus | Coimbatore's Favourite Café",
+    url: "https://caferetro.in",
+    siteName: "Cafe Retroo",
+    title: "Cafe Retroo | Saibaba Colony, Coimbatore",
     description:
-      "Cafe Locus is a beloved café in Coimbatore, Tamil Nadu, rated 4.7/5 on Google. Located on Avinashi Road, we serve great food and drinks in a warm, welcoming atmosphere.",
+      "Cafe Retroo is a popular café in Saibaba Colony, Coimbatore, Tamil Nadu, rated 4.8/5 on Google. Located on Raja Annamalai Road, we serve great food and drinks in a warm, welcoming atmosphere.",
     images: [
       {
         url: "/assets/logo.svg",
         width: 1200,
         height: 630,
-        alt: "Cafe Locus Logo",
+        alt: "Cafe Retroo Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cafe Locus | Coimbatore's Favourite Café",
+    title: "Cafe Retroo | Saibaba Colony, Coimbatore",
     description:
-      "Cafe Locus is a beloved café in Coimbatore, Tamil Nadu, rated 4.7/5 on Google. Located on Avinashi Road, we serve great food and drinks in a warm, welcoming atmosphere.",
+      "Cafe Retroo is a popular café in Saibaba Colony, Coimbatore, Tamil Nadu, rated 4.8/5 on Google. Located on Raja Annamalai Road, we serve great food and drinks in a warm, welcoming atmosphere.",
     images: ["/assets/logo.svg"],
   },
   icons: {
@@ -137,10 +136,10 @@ export const metadata: Metadata = {
     // yandex: "your-yandex-verification-code",
   },
   category: "Food & Beverage",
-  applicationName: "Cafe Locus",
+  applicationName: "Cafe Retroo",
   // Contact for site/author (SEO and discovery)
   other: {
-    contact: "063696 35321",
+    contact: "090809 90620",
   },
 };
 

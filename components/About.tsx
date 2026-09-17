@@ -24,19 +24,19 @@ const data = [
     imgSrc: "/assets/about/photo-1.jpg",
     title: "Our Journey",
     description:
-      "Cafe Locus has grown from a neighbourhood favourite into one of Coimbatore's most-loved cafés. Tucked away on Avinashi Road, we are known for our warm atmosphere, great food, and handcrafted drinks. Every visit is a chance to slow down and savour something good.",
+      "Cafe Retroo has grown into one of Coimbatore's most-loved cafés. Tucked away in Saibaba Colony on Raja Annamalai Road, we are known for our warm atmosphere, great food, and creative drinks. Every visit is a chance to slow down and savour something good.",
   },
   {
     imgSrc: "/assets/about/photo-2.jpg",
     title: "Our Promise",
     description:
-      "At Cafe Locus, we are committed to serving food and drinks that are consistently good. We source quality ingredients and craft every item with care. From the first sip of your cappuccino to the last bite of dessert, we want every moment to feel worth it.",
+      "At Cafe Retroo, we are committed to serving food and drinks that are consistently great. We source quality ingredients and craft every item with care. From the first bite of Shrimp Dynamite to the last sip of an Oreo Shake, we want every moment to feel worth it.",
   },
   {
     imgSrc: "/assets/about/photo-3.jpg",
     title: "Our Team",
     description:
-      "At Cafe Locus, every great experience is brought to you by our passionate team. From the kitchen to the counter, the people behind Cafe Locus take pride in their craft and genuinely care about making your visit memorable. Stop by and meet the faces of Cafe Locus.",
+      "At Cafe Retroo, every great experience is brought to you by our passionate team. From the kitchen to the counter, the people behind Cafe Retroo take pride in their craft and genuinely care about making your visit memorable. Stop by and meet the faces of Cafe Retroo.",
   },
 ];
 

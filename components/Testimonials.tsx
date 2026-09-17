@@ -23,25 +23,25 @@ import { Navigation, Autoplay } from "swiper/modules";
 // React Icons - Quote icon for testimonials
 import { IoMdQuote } from "react-icons/io";
 
-// Cafe Locus reputation data - Based on verified Google information
+// Cafe Retroo reputation data - Based on verified Google information
 const testimonials = [
   {
     message:
-      "Rated 4.7 out of 5 on Google — Cafe Locus is one of Coimbatore's most loved cafés, backed by over 642 customer reviews.",
-    name: "Cafe Locus",
-    profession: "Coimbatore, Tamil Nadu · 4.7 ★ on Google",
+      "Rated 4.8 out of 5 on Google — Cafe Retroo is one of Coimbatore's most loved cafés, backed by over 989 customer reviews.",
+    name: "Cafe Retroo",
+    profession: "Saibaba Colony, Coimbatore · 4.8 ★ on Google",
   },
   {
     message:
-      "Find us at D, 490–492, Avinashi Road, Nava India Rd, behind Kidss Talk, Coimbatore, Tamil Nadu 641004. Call us at 063696 35321.",
+      "Find us at 2nd Floor, 191/3-4, Raja Annamalai Rd, Jawahar Nagar, Saibaba Colony, Coimbatore, Tamil Nadu 641011. Call us at 090809 90620.",
     name: "Visit Us",
-    profession: "Open for dine-in · ₹400–₹1,400 per person",
+    profession: "Open for dine-in · ₹200–₹400 per person",
   },
   {
     message:
-      "From handcrafted coffees and indulgent desserts to satisfying savory bites — Cafe Locus has something for every mood and every occasion.",
-    name: "Cafe Locus",
-    profession: "Avinashi Road, Coimbatore",
+      "From bold Shrimp Dynamite and crispy Peri Peri Wings to hearty Chicken Wraps and refreshing Oreo Shakes — Cafe Retroo has something for every mood and every occasion.",
+    name: "Cafe Retroo",
+    profession: "Raja Annamalai Road, Saibaba Colony, Coimbatore",
   },
 ];
 

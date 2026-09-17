@@ -16,14 +16,14 @@
   <path d="M89.3638 38.0588C86.6915 38.7021 85.9492 39.4939 85.9492 39.8403C85.9492 40.929 90.799 42.5126 98.42 42.5126C101.835 42.5126 105.002 42.1662 107.427 41.5723C110.099 40.929 110.841 40.1867 110.841 39.8403C110.841 38.7516 105.992 37.168 98.42 37.168C95.0054 37.168 91.7887 37.5144 89.3638 38.0588Z" fill="white"/>
   <path d="M116.579 47.2144C116.579 44.5421 114.55 42.3152 111.828 41.8203V42.7606C114.055 43.206 115.639 45.0865 115.639 47.2144C115.639 49.6887 113.461 51.7177 110.789 51.7672C110.657 52.0971 110.509 52.4105 110.344 52.7074C110.443 52.7074 110.542 52.7074 110.641 52.7074C113.907 52.7074 116.579 50.2331 116.579 47.2144Z" fill="white"/>
 
-  <!-- CAFE LOCUS text - centered in the badge -->
+  <!-- CAFE RETROO text - centered in the badge -->
   <text
     x="100.5"
     y="80"
     font-family="Georgia, 'Times New Roman', serif"
-    font-size="16"
+    font-size="14"
     font-weight="700"
-    letter-spacing="5"
+    letter-spacing="4"
     fill="white"
     text-anchor="middle"
   >CAFE</text>
@@ -35,12 +35,12 @@
     x="100.5"
     y="102"
     font-family="Georgia, 'Times New Roman', serif"
-    font-size="14"
+    font-size="12"
     font-weight="400"
-    letter-spacing="4"
+    letter-spacing="3"
     fill="white"
     text-anchor="middle"
-  >LOCUS</text>
+  >RETROO</text>
 
   <!-- Decorative dots -->
   <circle cx="54" cy="94" r="1.5" fill="white" opacity="0.7"/>

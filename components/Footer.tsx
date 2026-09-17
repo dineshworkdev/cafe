@@ -24,12 +24,12 @@ const links = [
   { href: "/", name: "Contact" },
 ];
 
-// Social media icon components
+// Social media icon components with links
 const socialIcons = [
-  { icon: <FaYoutube /> },
-  { icon: <FaFacebook /> },
-  { icon: <FaTwitter /> },
-  { icon: <FaInstagram /> },
+  { icon: <FaYoutube />, href: "/" },
+  { icon: <FaFacebook />, href: "/" },
+  { icon: <FaTwitter />, href: "/" },
+  { icon: <FaInstagram />, href: "https://instagram.com/cafe_retroo" },
 ];
 
 const Footer = () => {
@@ -68,7 +68,9 @@ const Footer = () => {
             {socialIcons.map((social, index) => (
               <Link
                 key={`social-${index}`}
-                href="/"
+                href={social.href}
+                target={social.href.startsWith("http") ? "_blank" : undefined}
+                rel={social.href.startsWith("http") ? "noopener noreferrer" : undefined}
                 className="w-[54px] h-[54px] border border-white/[0.15] rounded-full flex items-center justify-center hover:text-accent transition-all"
               >
                 {social.icon}
@@ -78,7 +80,7 @@ const Footer = () => {
 
           {/* Copyright Notice */}
           <div className="border-t border-white/10 text-[15px] text-white/70 font-light w-full flex items-center justify-center py-6">
-            <p>&copy; {new Date().getFullYear()} Cafe Locus. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Cafe Retroo. All rights reserved.</p>
           </div>
         </div>
       </div>

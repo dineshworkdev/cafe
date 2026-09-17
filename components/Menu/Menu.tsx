@@ -12,66 +12,66 @@
 import Separator from "../Separator";
 import MenuItem from "./MenuItem";
 
-// Menu items data - Coffee offerings with images, names, descriptions, and prices
+// Menu items data - Cafe Retroo offerings with images, names, and descriptions
 const menuItems = [
   {
     imgSrc: "/assets/menu/coffee-1.png",
-    name: "Cappuccino",
-    description: "Espresso with steamed milk and velvety foam",
+    name: "Shrimp Dynamite",
+    description: "Crispy shrimp tossed in a bold, spicy dynamite sauce",
     price: 3.3,
   },
   {
     imgSrc: "/assets/menu/coffee-2.png",
-    name: "Basque Cheesecake",
-    description: "Rich, creamy cheesecake with a caramelised top",
+    name: "Chicken Wrap",
+    description: "Grilled chicken wrapped with fresh veggies and sauce",
     price: 4.5,
   },
   {
     imgSrc: "/assets/menu/coffee-3.png",
-    name: "Chocolate Cake",
-    description: "Moist, indulgent chocolate cake",
+    name: "Chicken Sandwich",
+    description: "Grilled chicken with fresh fillings in a toasted bun",
     price: 4.2,
   },
   {
     imgSrc: "/assets/menu/coffee-4.png",
-    name: "Kimchi Fried Rice",
-    description: "Flavourful fried rice with kimchi",
+    name: "Pizza",
+    description: "Wood-fired pizza with a perfectly crisp base",
     price: 3.5,
   },
   {
     imgSrc: "/assets/menu/coffee-5.png",
-    name: "Chicken Sandwich",
-    description: "Grilled chicken with fresh fillings",
+    name: "Peri Peri Wings",
+    description: "Juicy chicken wings glazed with fiery peri peri sauce",
     price: 5.4,
   },
   {
     imgSrc: "/assets/menu/coffee-1.png",
-    name: "Wontons",
-    description: "Crispy wontons with a savoury filling",
+    name: "Oreo Shake",
+    description: "Thick, creamy milkshake blended with crunchy Oreo cookies",
     price: 3.75,
   },
   {
     imgSrc: "/assets/menu/coffee-2.png",
-    name: "Churros",
-    description: "Golden churros with dipping sauce",
+    name: "Crispy Garlic Chicken",
+    description: "Tender chicken fried to golden perfection with garlic seasoning",
     price: 4.25,
   },
   {
     imgSrc: "/assets/menu/coffee-3.png",
-    name: "Espresso",
-    description: "Rich and bold shot of coffee",
+    name: "Chicken Sandwich",
+    description: "Grilled chicken with fresh fillings",
     price: 3.75,
   },
   {
     imgSrc: "/assets/menu/coffee-4.png",
-    name: "Latte",
-    description: "Espresso with steamed milk",
+    name: "Peri Peri Wings",
+    description: "Crispy wings with bold peri peri glaze",
     price: 5.5,
   },
   {
     imgSrc: "/assets/menu/coffee-5.png",
-    name: "Iced Coffee",
-    description: "Chilled coffee over ice",
+    name: "Oreo Shake",
+    description: "Rich Oreo milkshake, chilled and creamy",
     price: 6.5,
   },
 ] as const; // as const makes the array readonly for TypeScript type inference
@@ -88,8 +88,8 @@ const Menu = () => {
           </div>
           {/* Section Description */}
           <p className="text-center max-w-[620px] mx-auto">
-            A curated selection of our most-loved food and drinks — from indulgent desserts
-            and comforting bites to handcrafted coffees. Something for every mood.
+            A curated selection of our most-loved food and drinks — from bold starters
+            and hearty bites to refreshing shakes. Something for every mood.
           </p>
         </div>
         
